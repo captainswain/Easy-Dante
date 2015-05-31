@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Tophat - Dante Installer."
 echo "Written by swain."
+echo "Credits to: https://gist.github.com/Fire-/17953b4d0ac02d9181e7 for detailed install instructions."
 apt-get install make gcc locales debian-keyring
 apt-get update
 export LANGUAGE=en_US.UTF-8
