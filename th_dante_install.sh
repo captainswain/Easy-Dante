@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Tophat - Dante Installer."
-echo "Written by swain."
+echo "Written by swain./"
 echo "Credits to: https://gist.github.com/Fire-/17953b4d0ac02d9181e7 for detailed install instructions."
 apt-get install make gcc locales debian-keyring
 apt-get update
@@ -11,7 +11,7 @@ locale-gen en_US.UTF-8
 locale-gen en_US.UTF-8
 dpkg-reconfigure locales
 cd /usr/src
-wget http://www.inet.no/dante/files/dante-1.4.1.tar.gz 
+wget http://www.inet.no/dante/files/dante-1.4.1.tar.gz
 tar xvfz dante-1.4.1.tar.gz
 cd dante-1.4.1
 ./configure \
@@ -42,7 +42,7 @@ cat > /etc/init.d/sockd <<'endmsg'
 ### END INIT INFO
 #
 # dante SOCKS server init.d file. Based on /etc/init.d/skeleton:
-# Version:  @(#)skeleton  1.8  03-Mar-1998  miquels@cistron.nl 
+# Version:  @(#)skeleton  1.8  03-Mar-1998  miquels@cistron.nl
 # Via: https://gitorious.org/dante/pkg-debian
 
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
